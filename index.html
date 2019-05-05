@@ -8,12 +8,13 @@
      <!--Fonts-->
      <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
      <!--CSS-->
-     <link rel="stylesheet" href="css/main.css">
      <link rel="stylesheet" href="css/normalize.css">
+     <link rel="stylesheet" href="css/main.css">
+     
 </head>
 <body>
      <header class="site-header home">
-          <div class="container">
+          <div class="container content-header">
                <div class="content-bar">
                     <a href="/">
                          <img src="img/logo.svg" alt="Logo">
@@ -30,62 +31,117 @@
           </div> <!--Container-->
      </header>
 
-     <section>
-          <h2>Más Sobre Nosotros</h2>
-
-          <div>
-               <img src="img/icono1.svg" alt="Icon Security">
-               <h3 class="headers">Seguridad</h3>
-               <p>dolor sit, amet consectetur adipisicing elit. Sint enim reiciendis repellat, dolore porro laborum ut nulla itaque maiores praesentium perspiciatis</p>
-          </div>   
+     <section class="container section">
+          <h2 class="fw-300 text-center">Más Sobre Nosotros</h2>
           
-          <div>
-               <img src="img/icono2.svg" alt="Icon Price">
-               <h3 class="headers">El Mejor Precio</h3>
-               <p>dolor sit, amet consectetur adipisicing elit. Sint enim reiciendis repellat, dolore porro laborum ut nulla itaque maiores praesentium perspiciatis</p>
-          </div>
+          <div class="icons-us">
+               <div class="icons">
+                    <img src="img/icono1.svg" alt="Icon Security">
+                    <h3 class="headers">Seguridad</h3>
+                    <p>dolor sit, amet consectetur adipisicing elit. Sint enim reiciendis repellat, dolore porro laborum ut nulla itaque maiores praesentium perspiciatis</p>
+               </div>   
+               
+               <div class="icons">
+                    <img src="img/icono2.svg" alt="Icon Price">
+                    <h3 class="headers">El Mejor Precio</h3>
+                    <p>dolor sit, amet consectetur adipisicing elit. Sint enim reiciendis repellat, dolore porro laborum ut nulla itaque maiores praesentium perspiciatis</p>
+               </div>
 
-          <div>
-               <img src="img/icono3.svg" alt="Icon Time">
-               <h3 class="headers">A Tiempo</h3>
-               <p>dolor sit, amet consectetur adipisicing elit. Sint enim reiciendis repellat, dolore porro laborum ut nulla itaque maiores praesentium perspiciatis</p>
+               <div class="icons">
+                    <img src="img/icono3.svg" alt="Icon Time">
+                    <h3 class="headers">A Tiempo</h3>
+                    <p>dolor sit, amet consectetur adipisicing elit. Sint enim reiciendis repellat, dolore porro laborum ut nulla itaque maiores praesentium perspiciatis</p>
+               </div>
           </div>
      </section>          
 
-     <main>
-          <h2>Venta de Departamentos</h2>
+     <main class="section container">
+          <h2 class="fw-300 text-center">Venta de Departamentos</h2>
 
-          <div>
-               <img src="img/anuncio1.jpg" alt="Anuncio Dep">
-               <h3>Dep. de Lujo en el lago</h3>
-               <p>Departamento en el Lago con excelente vista, acabados de lujo a excelente precio</p>
-               <p>$3,000,000</p>
-               <a href="#">Ver Propiedad</a>
-          </div>
-          
-          <div>
-               <img src="img/anuncio2.jpg" alt="Anuncio Dep">
-               <h3>Dep. Moderno</h3>
-               <p>Departamento con diseño moderno, así como tecnologia artificial y decorada de forma minimalista</p>
-               <p>$2,000,000</p>
-               <a href="#">Ver Propiedad</a>
-          </div>
+          <div class="container-ad">
+               <div class="announcement">
+                    <img src="img/anuncio1.jpg" alt="Anuncio Dep">
+                    <div class="content-ad">
+                         <h3>Dep. de Lujo en el lago</h3>
+                         <p>Departamento en el Lago con excelente vista, acabados de lujo a excelente precio</p>
+                         <p class="price">$3,000,000</p>
+                         <ul class="icons-adds">
+                             <li>
+                                  <img src="img/icono_wc.svg" alt="icon wc">
+                                  <p>3</p>
+                             </li>
+                             <li>
+                                   <img src="img/icono_estacionamiento.svg" alt="icon auto">
+                                   <p>3</p>
+                             </li>
+                             <li>
+                                   <img src="img/icono_dormitorio.svg" alt="icon dormitorio">
+                                   <p>4</p>
+                             </li> 
+                         </ul>
+                         <a href="#" class="btn btn-yellow d-block">Ver Propiedad</a>
+                    </div>
+               </div>
+               
+               <div class="announcement">
+                    <img src="img/anuncio2.jpg" alt="Anuncio Dep">
+                    <div class="content-ad">
+                         <h3>Dep. Moderno</h3>
+                         <p>Departamento con diseño moderno, así como tecnologia y decorada de forma minimalista</p>
+                         <p class="price">$2,000,000</p>
+                         <ul class="icons-adds">
+                             <li>
+                                  <img src="img/icono_wc.svg" alt="icon wc">
+                                  <p>4</p>
+                             </li>
+                             <li>
+                                   <img src="img/icono_estacionamiento.svg" alt="icon auto">
+                                   <p>3</p>
+                             </li>
+                             <li>
+                                   <img src="img/icono_dormitorio.svg" alt="icon dormitorio">
+                                   <p>4</p>
+                             </li> 
+                         </ul>
+                         <a href="#" class="btn btn-yellow d-block">Ver Propiedad</a>
+                    </div>
+               </div>
 
-          <div>
-               <img src="img/anuncio3.jpg" alt="Anuncio Dep">
-               <h3>Dep. con Alberca</h3>
-               <p>Departamento con alberca incluida, al igual que un gran acabo de lujo</p>
-               <p>$3,000,000</p>
-               <a href="#">Ver Propiedad</a>
+               <div class="announcement">
+                    <img src="img/anuncio3.jpg" alt="Anuncio Dep">
+                    <div class="content-ad">
+                         <h3>Dep. con Alberca</h3>
+                         <p>Departamento con alberca incluida, al igual que un gran acabo de lujo</p>
+                         <p class="price">$3,000,000</p>
+                         <ul class="icons-adds">
+                             <li>
+                                  <img src="img/icono_wc.svg" alt="icon wc">
+                                  <p>3</p>
+                             </li>
+                             <li>
+                                   <img src="img/icono_estacionamiento.svg" alt="icon auto">
+                                   <p>2</p>
+                             </li>
+                             <li>
+                                  <img src="img/icono_dormitorio.svg" alt="icon dormitorio">
+                                  <p>3</p>
+                              </li> 
+                         </ul>
+                         <a href="#" class="btn btn-yellow d-block">Ver Propiedad</a>
+                    </div>
+               </div>
           </div>
-
-          <a href="anuncios.html">Ver todas</a>
+          <div class="show-all">
+               <a href="anuncios.html" class="btn btn-green">Ver todas</a>
+          </div>
      </main>
 
-     <section>
-          <h2>Encuentra el Departamento de tus sueños</h2>
-          <p>Contactanos mediante el formulario contacto, y un asesor te ayudara lo antes posible</p>
-          <a href="contacto.html">Contactanos</a>
+     <section class="img-contact">
+          <div class="container content-contact">
+               <h2>Encuentra el Departamento de tus sueños</h2>
+               <p>Contactanos mediante el formulario contacto, y un asesor te ayudara lo antes posible</p>
+               <a href="contacto.html" class="btn btn-yellow">Contactanos</a>
+          </div>
      </section>
 
      <section>
@@ -100,7 +156,7 @@
           
           <article>
           <img src="img/blog2.jpg" alt="">
-          <h4>Guía para el minimalismo en Casa</h4>
+          <h4>Guía para el Minimalismo en Casa</h4>
           <p>Published:<span>20/10/2019</span> por: <span>Admin</span></p>
           <p>Decora tu hogar de la mejor forma posible, usando solo lo necesario aprovechado diferentes puntos en ella</p>
           </article>
@@ -115,13 +171,13 @@
      </section>
 
      <footer>
-     <nav>
-          <a href="nosotros.html">Nosotros<a>
-          <a href="anuncios.html">Anuncios<a>
-          <a href="blog.html">Blog</a>
-          <a href="contacto.html">Contacto</a>          
-     </nav>
-     <p>AlphaDev - Todos los Derechos Reservados &copy;</p>
+          <nav>
+               <a href="nosotros.html">Nosotros<a>
+               <a href="anuncios.html">Anuncios<a>
+               <a href="blog.html">Blog</a>
+               <a href="contacto.html">Contacto</a>          
+          </nav>
+          <p>AlphaDev - Todos los Derechos Reservados &copy;</p>
      </footer>
 </body>
 </html>
