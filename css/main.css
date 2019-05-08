@@ -91,6 +91,11 @@ h4 {
 }
 
 /* Site-Header */
+.site-header {
+     background-color: #333333;
+     padding: 1rem 0 3rem 0;
+}
+
 .site-header.home {
      background-image: url(../img//header.jpg);
      background-position: center center;
@@ -226,3 +231,123 @@ h4 {
      font-size: 1.8rem;
 }
 
+/* Section infer */
+
+.section-infer {
+     display: flex;
+     justify-content: space-between;
+}
+
+.section-infer .blog {
+     flex-basis: 60%;
+}
+
+.section-infer .testimonials {
+     flex-basis: calc(40% - 2rem);
+}
+
+
+.blog-entry {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 2rem;
+}
+
+.blog-entry:last-of-type {
+     margin-bottom: 0;
+}
+
+.blog-entry .img {
+     flex-basis: 40%;
+}
+
+.blog-entry .entry-text {
+     flex-basis: calc(60% - 3rem);
+}
+
+.entry-text a {
+     color: #000000;
+     text-decoration: none;
+
+}
+
+.entry-text h4 {
+     margin: 0;
+     line-height: 1.4;
+}
+
+.entry-text h4::after {
+     content: '';
+     display: block;
+     width: 15rem;
+     height: .5rem;
+     background-color: #71B100;
+     margin-top: 1rem;
+}
+
+.entry-text span {
+     color: #E08709;
+}
+
+/* Testimonials */
+
+.testimonial {
+     background-color: #71B100;
+     font-size: 2.4rem;
+     padding: 2rem;
+     color: #ffffff;
+     border-radius: 2rem;
+}
+
+.testimonial p {
+     text-align: right;
+     margin-right: 2rem;
+}
+
+.testimonial blockquote::before {
+     content: '';
+     background-image: url(../img/comilla.svg);
+     width: 4rem;
+     height: 4rem;
+     position: absolute;
+     left: -2rem;
+}
+
+.testimonial blockquote {
+     position: relative;
+     padding-left: 5rem;
+     font-weight: 300;
+}
+
+/* Footer */
+
+.site-footer {
+     background-color: #333333;
+     margin: 0;
+}
+
+.footer-container {
+     padding: 3rem 0;
+     display: flex;
+     justify-content: space-between;
+}
+
+.copyright {
+     margin: 0;
+     color: #ffffff;
+}
+
+/** Internas **/
+
+.content-us {
+     display: grid;
+     grid-template-columns: 50% 50%;
+     grid-column-gap: 2rem;
+}
+
+.text-us blockquote {
+     font-weight: 900;
+     font-size: 2rem;
+     margin: 0;
+     padding: 4.5rem 0 2rem 0 ;
+}
